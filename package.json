@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with autumn/winter glassmorphism theme",
+  "scripts": {
+    "test": "echo \"No test infrastructure configured\"",
+    "start": "python3 -m http.server 4173"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/MateoRobinsonn/Personal-Website"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
