@@ -24,7 +24,7 @@ export const experience: Experience[] = [
   {
     role: 'Software Engineer',
     org: 'Perfect Pair, Spark Program',
-    location: 'Remote',
+    location: 'Hybrid',
     period: 'Aug 2026 – Sept 2026',
     bullets: [
       'Designed and implemented an automated document ingestion pipeline that detects new and modified files from Google Drive and prepares them for downstream retrieval and chatbot systems.',
