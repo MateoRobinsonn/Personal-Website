@@ -22,8 +22,8 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    role: 'Software Engineering Project',
-    org: 'Perfect Pair Nonprofit — Spark Program',
+    role: 'Software Engineer',
+    org: 'Perfect Pair, Spark Program',
     location: 'Remote',
     period: 'Aug 2026 – Sept 2026',
     bullets: [
@@ -42,10 +42,9 @@ export const experience: Experience[] = [
     period: 'Oct 2024 – Present',
     bullets: [
       'Diagnose and resolve hardware, software, audiovisual, and connectivity issues across production classroom systems used by students and faculty.',
-      'Troubleshoot technical failures under time constraints, minimizing downtime during active classes and university events.',
-      'Maintain and test computers, displays, projectors, audio systems, and supporting classroom infrastructure.',
-      'Collaborate with technicians across campus to coordinate maintenance workflows, equipment logistics, and service requests.',
-      'Assist with onboarding and training new technicians on troubleshooting procedures and technical systems.',
+      'Troubleshoot technical failures under time constraints, identifying root causes and restoring classroom technology while minimizing downtime.',
+      'Maintain, test, and support computers, displays, projectors, audio equipment, and related campus technology infrastructure.',
+      'Collaborate with technicians on campus-wide maintenance workflows and equipment logistics while assisting with onboarding and training new team members.',
     ],
   },
 ]
@@ -65,11 +64,10 @@ export const projects: Project[] = [
     period: 'June 2025 – Present',
     stack: ['TypeScript', 'Next.js', 'Firebase', 'Tailwind CSS', 'WhatsApp API'],
     description:
-      'A bilingual e-commerce platform used by real customers, consolidating product browsing, accounts, and ordering into a single storefront.',
+      'A bilingual e-commerce platform used by real customers to browse products, manage accounts, and place orders.',
     bullets: [
-      'Developed and deployed a bilingual e-commerce platform used by real customers, consolidating product browsing, customer accounts, and ordering into a single storefront.',
-      'Implemented Firebase authentication, authorization, and data storage to securely manage users, products, and customer orders.',
-      'Designed and enforced Firebase security rules to protect customer and application data in production.',
+      'Developed and deployed a bilingual e-commerce platform used by real customers to browse products, manage accounts, and place orders.',
+      'Implemented Firebase authentication, authorization, data storage, and security rules to securely manage users and customer orders.',
       'Integrated a WhatsApp-based ordering workflow to streamline customer communication and reduce manual order coordination.',
     ],
     links: [{ label: 'GitHub', href: 'https://github.com/MateoRobinsonn' }],
@@ -81,10 +79,9 @@ export const projects: Project[] = [
     description:
       'A multi-user travel app with AI-powered itinerary recommendations and real-time, location-aware trip visualization.',
     bullets: [
-      'Designed and implemented backend services and REST APIs supporting itinerary creation and management for a multi-user travel application.',
-      'Developed AI-powered recommendation logic using user location, budget, and travel plans to generate personalized travel suggestions.',
-      'Integrated Google Maps APIs to provide real-time, location-aware itinerary visualization.',
-      'Automated testing and deployment workflows using GitHub Actions to support reliable and repeatable releases.',
+      'Designed backend services and REST APIs supporting itinerary creation and management for a multi-user travel application.',
+      'Developed AI-powered recommendation logic using user location, budget, and travel plans to generate personalized suggestions.',
+      'Integrated Google Maps APIs for location-aware itinerary visualization and GitHub Actions for automated testing and deployment.',
     ],
     links: [{ label: 'GitHub', href: 'https://github.com/hruif/TravelPartner' }],
   },
@@ -97,7 +94,7 @@ export const projects: Project[] = [
     bullets: [
       'Designed and implemented backend services supporting flight search, filtering, and database-backed application workflows.',
       'Optimized database queries and indexing strategies, improving search performance by 40%.',
-      'Applied object-oriented design principles to build a maintainable and extensible backend architecture.',
+      'Applied object-oriented design principles to develop a maintainable backend architecture.',
     ],
     links: [{ label: 'GitHub', href: 'https://github.com/MateoRobinsonn' }],
   },
@@ -105,11 +102,12 @@ export const projects: Project[] = [
 
 export const skills: { category: string; items: string[] }[] = [
   { category: 'Languages', items: ['Java', 'Python', 'C', 'C++', 'TypeScript', 'JavaScript', 'Swift', 'Dart', 'SQL'] },
-  { category: 'Backend / Systems', items: ['Node.js', 'NestJS', 'REST APIs', 'PostgreSQL', 'SQL Server', 'Linux'] },
-  { category: 'Frontend / Mobile', items: ['React', 'Next.js', 'React Native', 'SwiftUI', 'Flutter', 'Tailwind CSS'] },
-  { category: 'Cloud / DevOps', items: ['Cloudflare Workers', 'R2', 'D1', 'Firebase', 'Azure', 'AWS', 'GitHub Actions', 'CI/CD'] },
-  { category: 'APIs & Integrations', items: ['Google Maps API', 'Google Drive API', 'WhatsApp API'] },
-  { category: 'Tools', items: ['Git', 'Xcode', 'GDB'] },
+  { category: 'Frameworks', items: ['React', 'Next.js', 'React Native', 'SwiftUI', 'Flutter', 'Node.js', 'NestJS', 'Tailwind CSS'] },
+  { category: 'Data / Cloud', items: ['PostgreSQL', 'SQL Server', 'Firebase', 'Cloudflare Workers', 'R2', 'D1', 'Azure', 'AWS'] },
+  {
+    category: 'Tools',
+    items: ['Git', 'Linux', 'REST APIs', 'GitHub Actions', 'CI/CD', 'Google Drive API', 'Google Maps API', 'WhatsApp API', 'Xcode', 'GDB'],
+  },
 ]
 
 export const coursework = [
