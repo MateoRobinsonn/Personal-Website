@@ -1,17 +1,37 @@
 {
   "name": "personal-website",
+  "private": true,
   "version": "1.0.0",
-  "description": "Personal portfolio website with autumn/winter glassmorphism theme",
-  "scripts": {
-    "test": "echo \"No test infrastructure configured\"",
-    "start": "python3 -m http.server 4173"
-  },
+  "description": "Mateo Robinson's personal portfolio — React, TypeScript, Tailwind CSS, built with Vite.",
+  "type": "module",
+  "homepage": "https://mateorobinsonn.github.io/Personal-Website/",
   "repository": {
     "type": "git",
-    "url": "http://localhost:26831/MateoRobinsonn/Personal-Website"
+    "url": "https://github.com/MateoRobinsonn/Personal-Website.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "license": "MIT",
+  "author": "Mateo Robinson"
 }
